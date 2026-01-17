@@ -1,9 +1,9 @@
-# 📉 Customer Churn Prediction using Machine Learning
+#  Customer Churn Prediction using Machine Learning
 
 This project is focused on predicting customer churn using a dataset from a telecommunications company. The goal is to identify customers who are likely to stop using the service, and understand the business factors behind churn, enabling proactive retention strategies.
 
 
-## 🧠 Objective
+##  Objective
 
 The main objective of this project is to:
 
@@ -13,7 +13,7 @@ The main objective of this project is to:
 - Translate insights into **actionable business recommendations**
 
 
-## 📊 Dataset
+##  Dataset
 
 - **Source**: Telco Customer Churn Dataset (from IBM Sample Datasets or Kaggle)
 - **Rows**: 7043 customers
@@ -22,14 +22,14 @@ The main objective of this project is to:
 
 
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 We explored the data using Seaborn and Matplotlib. Key visualizations include:
 
-- ✅ Pie chart showing **overall churn rate**
-- ✅ Histograms for **tenure** and **monthly charges** by churn
-- ✅ Countplots for **contract type** and **payment method** vs churn
-- ✅ Correlation heatmaps for numeric features
+-  Pie chart showing **overall churn rate**
+-  Histograms for **tenure** and **monthly charges** by churn
+-  Countplots for **contract type** and **payment method** vs churn
+-  Correlation heatmaps for numeric features
 
 These helped us form business insights such as:
 - Customers with short tenure churn more
@@ -39,7 +39,7 @@ These helped us form business insights such as:
 
 
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 
 We trained and evaluated the following models:
 
@@ -57,7 +57,7 @@ We trained and evaluated the following models:
 
 
 
-## 📈 Visualizations
+##  Visualizations
 
 All visualizations used for EDA and model comparison are saved in the `visuals/` folder. These include:
 
@@ -69,7 +69,7 @@ All visualizations used for EDA and model comparison are saved in the `visuals/`
 
 ---
 
-## 🧠 Business Insights
+##  Business Insights
 
 This project doesn't just build a predictive model — it **translates data into business value**:
 
@@ -81,17 +81,17 @@ This project doesn't just build a predictive model — it **translates data into
 
 
 
-## 💼 Business Recommendations
+##  Business Recommendations
 
 | Strategy | Explanation |
 |----------|-------------|
-| 🎯 Target short-tenure users | Offer onboarding perks or welcome incentives |
-| 📄 Encourage long-term contracts | Provide discounts to switch from month-to-month |
-| 💳 Avoid churn-prone payment methods | Encourage auto-pay or credit card users |
-| 📢 Use model predictions | Export churn scores weekly to customer support & marketing |
+|  Target short-tenure users | Offer onboarding perks or welcome incentives |
+|  Encourage long-term contracts | Provide discounts to switch from month-to-month |
+|  Avoid churn-prone payment methods | Encourage auto-pay or credit card users |
+|  Use model predictions | Export churn scores weekly to customer support & marketing |
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python**
 - **Pandas, NumPy** (data cleaning & processing)
@@ -101,25 +101,16 @@ This project doesn't just build a predictive model — it **translates data into
 
 
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Use **SMOTE** for class imbalance
 - Deploy the model with a **Streamlit app** for business users
 - Incorporate **customer sentiment or feedback** as additional features
 - Track model performance over time with real churn data
 
----
-## 🙋‍♀️ About Me
-
-I'm a third-year Computer Applications student with a passion for data science. This project reflects my ability to combine technical machine learning skills with real-world business thinking. Looking for roles in **Data Analysis** or **Data Science**.
-
-📫 Reach me on [LinkedIn](www.linkedin.com/in/tanvi-sharma25)  
-📂 Portfolio: [My Portfolio ->](https://tanvirohitsharma.my.canva.site/portfolio)
-
----
-
-## ⭐ Star This Repo
+##  Star This Repo
 
 If you found this project useful, please give it a ⭐ on GitHub. It helps me grow!
+
 
 
